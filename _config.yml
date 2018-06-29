@@ -3,7 +3,7 @@ title: EnaTest
 timezone: UTC
 collections:
   artwork:
-    title: Artwork
+    title: Artworks
     output: true
   posts:
     title: Posts
