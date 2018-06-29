@@ -10,13 +10,13 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
     type: artworks
   values:
-    layout: artworks
+    layout: artwork
     permalink: "/artworks/:title/"
 - scope:
     path: ''

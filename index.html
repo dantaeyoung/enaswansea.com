@@ -1,13 +1,16 @@
+---
+layout: default
+---
+
 <html>
     <head>
         <title>{{ title }}</title>
     </head>
     <body>
-      fxdsl
-        {{ content }}aaaaabc
-      {% for thiswork in site.posts %}
+      hello! This is the index.</br>
+      {% for thiswork in site.artworks %}
         <li><a href="{{ thiswork.url }}">{{ thiswork.title }}</a></li>
       {% endfor %}
     </body>
 </html>
--
+
