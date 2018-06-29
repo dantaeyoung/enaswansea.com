@@ -14,7 +14,7 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: artworks 
+    type: artworks
   values:
     layout: artworks
     permalink: "/artworks/:title/"
@@ -27,6 +27,6 @@ defaults:
     path: ''
     type: pages
   values:
-    artwork year:
-    image:
+    artwork year: 
+    image: 
 permalink: pretty
